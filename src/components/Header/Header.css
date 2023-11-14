@@ -8,20 +8,22 @@
     margin: 10px 20px 2px 5px;
     color: #FFFFFF;
 }
-.sign_in{
+.sign_in-button{
     /* background-color: transparent;
     border: 0px;
     font-size: 17px; */
-    margin: 8px 5px 2px 950px;
+    margin: 2px 5px 3px 950px;
+   
 }
-button {
+.sign_in {
+    margin: 8px 5px 2px 950px;
+    margin-left: 950px;
     display: inline-block;
     border-radius: 4px;
     background-color: white;
     border: none;
     color: 3d405b;
     text-align: center;
-    margin: 2px ;
     font-size: 15px;
     padding: 8px  16px 16px 16px;
     width: 150px;
@@ -31,14 +33,14 @@ button {
     margin: 5px;
    }
    
-   button span {
+   .sign_in span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
    }
    
-   button span:after {
+   .sign_in span:after {
     content: '»';
     position: absolute;
     opacity: 0;
@@ -47,11 +49,11 @@ button {
     transition: 0.5s;
    }
    
-   button:hover span {
+   .sign_in:hover span {
     padding-right: 15px;
    }
    
-   button:hover span:after {
+   .sign_in:hover span:after {
     opacity: 1;
     right: 0;
    }
