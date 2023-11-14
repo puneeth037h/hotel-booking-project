@@ -1,3 +1,17 @@
 .Nav_bar{
     background-color: #2274E0;
+    display: flex;
+    height: 60px;
+    font-size: 15px;
+    justify-content: space-around;
+}
+/* .Logo{
+    margin: 5px 1100px 5px 20px;
+} */
+.Nav_buttons{
+    height: 30px;
+    background-color: transparent;
+    border: 0px;
+    font-size: 15px;
+    justify-content: space-evenly;
 }
