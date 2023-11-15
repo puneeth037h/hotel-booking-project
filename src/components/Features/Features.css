@@ -1,0 +1,27 @@
+.Features-dual{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Features{
+    width: 600px;
+    background-color: aqua;
+    margin:20px;
+    border-radius: 20px;
+    display: flex;
+    padding: 3px;
+    align-items: center;
+}
+.features-icon{
+    width: 64px;
+    height: 64px;
+}
+.Features-container{
+    display: flex;
+    flex-direction: column;
+}
+.Features-headfont{
+    margin:.4em ;
+}
+.Features-font{
+    margin: .4em;
+}
