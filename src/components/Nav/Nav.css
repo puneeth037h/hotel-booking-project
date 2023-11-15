@@ -1,17 +1,27 @@
 .Nav_bar{
-    background-color: #2274E0;
+    /* background-color: #2274E0; */
+    background-color: #2196F3;
     display: flex;
     height: 60px;
     font-size: 15px;
     justify-content: space-around;
+    color: white;
 }
 /* .Logo{
     margin: 5px 1100px 5px 20px;
 } */
 .Nav_buttons{
+    color: white;
     height: 30px;
     background-color: transparent;
     border: 0px;
     font-size: 15px;
     justify-content: space-evenly;
+    margin: 15px 20px 5px 5px;
+    transition: ease-out 150ms;
+    
+}
+.Nav_buttons:hover{
+    border-bottom:3px solid white;
+
 }
