@@ -9,7 +9,7 @@ function Nav(){
                 <Link to={'/'}><button className="Nav_buttons">Home</button></Link>
                 <button className="Nav_buttons">Hotels</button>
                 <button className="Nav_buttons">About Us</button>
-                <button className="Nav_buttons">Contact Us</button>
+                <Link to={'/contact'}><button className="Nav_buttons">Contact Us</button></Link>
                 <div className="sign_in-button">
                 <Link to='/login'> <button className="sign_in">
                 <span>Log_in/sign_up</span>

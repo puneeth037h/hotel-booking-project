@@ -6,6 +6,8 @@ import Nav from './components/Nav/Nav';
 import Herosection from './components/Hero section/Herosection';
 import Features from './components/Features/Features';
 import Customroutes from './components/customroutes/customroutes';
+import Contactus from './components/Contactus/Contactus';
+import Signup from './components/Signup/Signup';
 
 function App() {
   return (
@@ -15,7 +17,8 @@ function App() {
         <Customroutes></Customroutes>
         {/* <Herosection></Herosection>
         <Features></Features> */}
-        
+        {/* <Contactus></Contactus>
+        <Signup></Signup> */}
       </BrowserRouter>
     </div>
   );
