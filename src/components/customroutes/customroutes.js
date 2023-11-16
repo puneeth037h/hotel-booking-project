@@ -4,7 +4,7 @@ import Signup from "../Signup/Signup";
 function Customroutes(){
     return(
         <Routes>
-            <Route path="/Login" Component={<Signup></Signup>} ></Route>
+            <Route path="/login" element={<Signup></Signup>} ></Route>
         </Routes>
     );
 }
