@@ -13,8 +13,8 @@ function App() {
       <BrowserRouter>
         <Nav></Nav>
         <Customroutes></Customroutes>
-        <Herosection></Herosection>
-        <Features></Features>
+        {/* <Herosection></Herosection>
+        <Features></Features> */}
         
       </BrowserRouter>
     </div>
