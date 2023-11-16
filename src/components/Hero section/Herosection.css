@@ -1,7 +1,10 @@
 .herosection{
-    width: 1520px;
-    overflow: hidden;
+    /* width: 1520px;
+    overflow: hidden; */
+    
 }
 .heroimage{
-    width: 100.5%;
+    width: 98%;
+    border-radius: 15px;
+    margin: 1%;
 }

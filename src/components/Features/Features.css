@@ -4,11 +4,12 @@
 }
 .Features{
     width: 600px;
-    background-color: aqua;
+    background-color:rgb(167, 204, 239);
     margin:20px;
     border-radius: 20px;
     display: flex;
     padding: 3px;
+    padding: 10px;
     align-items: center;
 }
 .features-icon{

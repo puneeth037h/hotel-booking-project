@@ -1,27 +1,82 @@
 .Nav_bar{
     /* background-color: #2274E0; */
-    background-color: #2196F3;
+    /* background-color:white; */
     display: flex;
     height: 60px;
     font-size: 15px;
-    justify-content: space-around;
-    color: white;
+    justify-content: space-between;
+    color:#3d405b;
 }
 /* .Logo{
     margin: 5px 1100px 5px 20px;
 } */
 .Nav_buttons{
-    color: white;
+    color: #3d405b;
     height: 30px;
     background-color: transparent;
     border: 0px;
+    margin-right: 40px;
     font-size: 15px;
     justify-content: space-evenly;
-    margin: 15px 20px 5px 5px;
+    /* margin: 15px 20px 5px 5px; */
     transition: ease-out 150ms;
     
 }
 .Nav_buttons:hover{
-    border-bottom:3px solid white;
+    border-bottom:1px solid #3d405b;
+    ;
 
 }
+.nav-buttons-group{
+    justify-content: space-around;
+    align-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+.sign_in-button{
+   
+   
+}
+.sign_in {
+    /* margin: 8px 5px 2px 100px; */
+    margin-left: 100px;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: white;
+    border: none;
+    color: 3d405b;
+    text-align: center;
+    font-size: 15px;
+    padding: 8px  16px 16px 16px;
+    width: 150px;
+    height: 35px;
+    transition: all 0.5s;
+    cursor: pointer;
+    /* margin: 5px; */
+    margin-top: -2px;
+   }
+   
+   .sign_in span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+   }
+   
+   .sign_in span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+   }
+   
+   .sign_in:hover span {
+    padding-right: 15px;
+   }
+   
+   .sign_in:hover span:after {
+    opacity: 1;
+    right: 0;
+   }

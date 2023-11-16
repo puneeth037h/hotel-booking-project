@@ -1,0 +1,81 @@
+
+.main-container-sigin{
+    /* background-color:gray; */
+    margin: 3% 5% 3% 5%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Signup-main-container{
+    background-color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin: 3%;
+    width: 900px;
+    /* border-radius: 15px; */
+}
+.signup-side-img{
+    width: 360px;
+    height: 500px;
+    background-image: url("../../Assets/images/sign-in-bg-pic.jpg");
+    background-size: 360px;
+    margin-left: -220px;
+}
+.Main-signin-form{
+    width: 30%;
+    margin: 10px;
+    margin-left: 100px;
+}
+.Quote-container{
+    color:white;
+    margin: 30px;
+    text-align: center;
+    line-height: 40px;
+}
+.signin-logo{
+    margin: 20px;
+}
+.Username-container > label{
+    color: gray;
+    margin-top: 20px;
+}
+.Username-container{
+    display: flex;
+    flex-direction: column;
+}
+.Username-container > input{
+    background-color: transparent;
+    border: 0px;
+    font-size: 20px;
+    border-bottom: .5px solid black;
+    outline: none;
+    width: 300px;
+    margin-top: 8px;
+    padding: 2px;
+}
+.signup-checkbox-main-container{
+    display: flex;
+    font-size: smaller;
+}
+.signup-checkbox-container{
+    display: flex;
+    margin-right: 20px;
+}
+.Signin_button_container{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 30px;
+}
+.Signin_button{
+    width: 200px;
+    background-color:orange;
+    color: white;
+    border: 0px;
+    padding: 5px;
+    border-radius: 10px;
+    height: 50px;
+}
