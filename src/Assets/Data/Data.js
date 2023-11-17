@@ -1,6 +1,6 @@
 
 
-let hoteldetails={
+let Hoteldetails={
     "hotels": [
       {
         "name": "Taj Mahal Palace",
@@ -9,6 +9,8 @@ let hoteldetails={
           "state": "Maharashtra",
           "country": "India"
         },
+        "startingPrice": 500,
+        "thumbnail":"https://www.hotelscombined.com/himg/14/63/0c/expediav2-76334-aa6262-481247.jpg",
         "rating": 5,
         "facilities": ["Spa", "Swimming Pool", "Fine Dining"],
         "contact": {
@@ -24,6 +26,8 @@ let hoteldetails={
           "state": "Uttar Pradesh",
           "country": "India"
         },
+        "thumbnail":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/47406101.jpg?k=6bd9851de573a4cd5bd55580b4c849f6899eeaf2a8d88ca5404a5a320db90c5b&o=&hp=1",
+        "startingPrice": 800,
         "rating": 5,
         "facilities": ["Golf Course", "Luxury Spa", "Pool"],
         "contact": {
@@ -39,6 +43,8 @@ let hoteldetails={
           "state": "Delhi",
           "country": "India"
         },
+        "thumbnail":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/5e/6b/e4/inner-courtyard.jpg?w=700&h=-1&s=1",
+        "startingPrice": 700,
         "rating": 5,
         "facilities": ["Royal Club Lounge", "Award-winning Restaurants", "Fitness Center"],
         "contact": {
@@ -54,6 +60,8 @@ let hoteldetails={
           "state": "Tamil Nadu",
           "country": "India"
         },
+        "thumbnail":"https://www.itchotels.com/content/dam/itchotels/in/umbrella/itc/hotels/itcgrandchola-chennai/images/overview/overview-desktop/exterior-dusk.png",
+        "startingPrice": 600,
         "rating": 5,
         "facilities": ["Luxury Spa", "Multiple Dining Options", "Conference Rooms"],
         "contact": {
@@ -69,6 +77,7 @@ let hoteldetails={
           "state": "Rajasthan",
           "country": "India"
         },
+        "startingPrice": 900,
         "rating": 5,
         "facilities": ["Palatial Rooms", "Landscaped Gardens", "Outdoor Pool"],
         "contact": {
@@ -84,6 +93,7 @@ let hoteldetails={
           "state": "Himachal Pradesh",
           "country": "India"
         },
+        "startingPrice": 750,
         "rating": 5,
         "facilities": ["Mountain Views", "Outdoor Jacuzzi", "Nature Activities"],
         "contact": {
@@ -99,6 +109,7 @@ let hoteldetails={
           "state": "West Bengal",
           "country": "India"
         },
+        "startingPrice": 400,
         "rating": 4,
         "facilities": ["Business Center", "Roof-Top Lounge", "Fitness Studio"],
         "contact": {
@@ -113,6 +124,7 @@ let hoteldetails={
           "city": "Goa",
           "state": "India"
         },
+        "startingPrice": 550,
         "rating": 4,
         "facilities": ["Water Sports", "Beach Access", "Casino"],
         "contact": {
@@ -128,6 +140,7 @@ let hoteldetails={
           "state": "Maharashtra",
           "country": "India"
         },
+        "startingPrice": 450,
         "rating": 4,
         "facilities": ["Business Services", "Spa and Wellness", "Rooftop Lounge"],
         "contact": {
@@ -143,6 +156,7 @@ let hoteldetails={
           "state": "Jammu and Kashmir",
           "country": "India"
         },
+        "startingPrice": 600,
         "rating": 4,
         "facilities": ["Historic Architecture", "Kashmiri Cuisine", "Shikara Rides"],
         "contact": {
@@ -158,6 +172,7 @@ let hoteldetails={
           "state": "Karnataka",
           "country": "India"
         },
+        "startingPrice": 850,
         "rating": 5,
         "facilities": ["Executive Lounge", "Gourmet Dining", "Luxury Spa"],
         "contact": {
@@ -173,6 +188,7 @@ let hoteldetails={
           "state": "Telangana",
           "country": "India"
         },
+        "startingPrice": 500,
         "rating": 4,
         "facilities": ["Business Class Rooms", "Outdoor Pool", "Fitness Center"],
         "contact": {
@@ -188,6 +204,7 @@ let hoteldetails={
           "state": "Tamil Nadu",
           "country": "India"
         },
+        "startingPrice": 700,
         "rating": 5,
         "facilities": ["Luxury Residences", "Dining Choices", "Spa and Fitness Center"],
         "contact": {
@@ -203,6 +220,7 @@ let hoteldetails={
           "state": "Haryana",
           "country": "India"
         },
+        "startingPrice": 600,
         "rating": 4,
         "facilities": ["Heavenly Spa", "Outdoor Pool", "Modern Meeting Spaces"],
         "contact": {
@@ -218,6 +236,7 @@ let hoteldetails={
           "state": "Maharashtra",
           "country": "India"
         },
+        "startingPrice": 650,
         "rating": 4,
         "facilities": ["Club Oasis Spa", "Multiple Dining Venues", "Concierge Services"],
         "contact": {
@@ -233,6 +252,7 @@ let hoteldetails={
           "state": "Andhra Pradesh",
           "country": "India"
         },
+        "startingPrice": 550,
         "rating": 4,
         "facilities": ["Sea View Rooms", "All-Day Dining", "Rooftop Bar"],
         "contact": {
@@ -247,6 +267,7 @@ let hoteldetails={
           "city": "Chandigarh",
           "state": "India"
         },
+        "startingPrice": 500,
         "rating": 4,
         "facilities": ["Business Center", "Rooftop Pool", "Fitness Club"],
         "contact": {
@@ -262,6 +283,7 @@ let hoteldetails={
           "state": "Rajasthan",
           "country": "India"
         },
+        "startingPrice": 800,
         "rating": 5,
         "facilities": ["Luxury Suites", "Award-Winning Restaurants", "Spa"],
         "contact": {
@@ -277,6 +299,7 @@ let hoteldetails={
           "state": "Kerala",
           "country": "India"
         },
+        "startingPrice": 600,
         "rating": 4,
         "facilities": ["Infinity Pool", "Specialty Restaurants", "Meeting Rooms"],
         "contact": {
@@ -292,6 +315,7 @@ let hoteldetails={
           "state": "Delhi",
           "country": "India"
         },
+        "startingPrice": 750,
         "rating": 5,
         "facilities": ["Grand Ballroom", "Multiple Restaurants", "Luxury Spa"],
         "contact": {
@@ -307,6 +331,7 @@ let hoteldetails={
           "state": "Rajasthan",
           "country": "India"
         },
+        "startingPrice": 900,
         "rating": 5,
         "facilities": ["Lake View Rooms", "Luxury Spa", "Fine Dining"],
         "contact": {
@@ -322,6 +347,7 @@ let hoteldetails={
           "state": "Rajasthan",
           "country": "India"
         },
+        "startingPrice": 650,
         "rating": 4,
         "facilities": ["Rooftop Pool", "Conference Rooms", "Fitness Center"],
         "contact": {
@@ -336,6 +362,7 @@ let hoteldetails={
           "city": "Goa",
           "state": "India"
         },
+        "startingPrice": 700,
         "rating": 5,
         "facilities": ["Private Beach", "Jiva Spa", "Fine Dining"],
         "contact": {
@@ -351,6 +378,7 @@ let hoteldetails={
           "state": "Karnataka",
           "country": "India"
         },
+        "startingPrice": 850,
         "rating": 5,
         "facilities": ["Luxury Accommodations", "Rooftop Bar", "Spa"],
         "contact": {
@@ -366,6 +394,7 @@ let hoteldetails={
           "state": "Maharashtra",
           "country": "India"
         },
+        "startingPrice": 600,
         "rating": 4,
         "facilities": ["Airport Shuttle", "Outdoor Pool", "Executive Lounge"],
         "contact": {
@@ -377,3 +406,4 @@ let hoteldetails={
     ]
   }
   
+  export default Hoteldetails;

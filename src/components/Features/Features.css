@@ -4,7 +4,7 @@
 }
 .Features{
     width: 600px;
-    background-color:rgb(167, 204, 239);
+    background-color:#cee5f7;
     margin:20px;
     border-radius: 20px;
     display: flex;
@@ -15,14 +15,19 @@
 .features-icon{
     width: 64px;
     height: 64px;
+    padding: 10px;
 }
 .Features-container{
     display: flex;
     flex-direction: column;
 }
 .Features-headfont{
-    margin:.4em ;
+    margin: 5px ;
 }
 .Features-font{
     margin: .4em;
+    font-size: 14px;
+    padding: 5px;
+    line-height: 20px;
+    text-align: justify;
 }
