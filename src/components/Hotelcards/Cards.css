@@ -6,7 +6,7 @@
     padding: 10px;
     border-radius: 20px;
     box-shadow: 0px 0px 20px #91bbdb9b;
-    height: 370px;
+    height: 390px;
 }
 .cardThumbnail-container{
     display: flex;
@@ -14,12 +14,19 @@
     align-items: center;
 }
 .cardThumbnail{
-    width: 350px;
-    height: 200px;
+    width: 360px;
+    height: 230px;
     overflow: hidden;
     object-fit: cover;
     border-radius: 20px;
-    margin-top: 10px;
+    margin-top: 5px;
+    transition: all ease-in-out 200ms;
+    
+}
+
+.cardThumbnail:hover {
+    transform: translateY(-40px);
+    box-shadow: 0px 14px 12px  rgba(0, 0, 0, 0.8);
 }
 .card-details{
     line-height: 20px;
@@ -65,4 +72,9 @@
 .card-button:hover {
     box-shadow: 9px 9px 33px #efefef, -9px -9px 33px #ffffff;
     transform: translateY(-2px);
+}
+.rating-star{
+    margin-top: 3px;
+    width: 17px;
+    margin-bottom: -2px
 }
