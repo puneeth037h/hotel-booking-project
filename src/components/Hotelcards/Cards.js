@@ -3,7 +3,7 @@ import './Cards.css'
 function Cards({hotel}){
     
     return(
-        <div>
+        <div className='Crad-container'>
             <div>
                 <img src={hotel.thumbnail}  className="cardThumbnail"alt="" />
             </div>

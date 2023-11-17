@@ -16,7 +16,7 @@ function App() {
       <BrowserRouter>
         <Nav></Nav>
         <Customroutes></Customroutes>
-        <Hotels></Hotels>
+        {/* <Hotels></Hotels> */}
       </BrowserRouter>
     </div>
   );

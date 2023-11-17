@@ -2,6 +2,7 @@ import { Route,Routes } from "react-router-dom";
 import Signup from "../Signup/Signup";
 import Home from "../Home";
 import Contactus from "../Contactus/Contactus";
+import Hotels from "../Hotels/Hotels";
 
 function Customroutes(){
     return(
@@ -9,6 +10,7 @@ function Customroutes(){
             <Route path="/" element={<Home></Home>}></Route>
             <Route path="/login" element={<Signup></Signup>} ></Route>
             <Route path="/contact" element={<Contactus></Contactus>}></Route>
+            <Route path="/Hotels" element={<Hotels></Hotels>}></Route>
         </Routes>
     );
 }

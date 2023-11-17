@@ -1,3 +1,14 @@
+
+.Crad-container{
+    margin: 50px;
+    background-color: #cee5f7;
+    padding: 10px;
+    border-radius: 20px;
+}
 .cardThumbnail{
-    width: 200px;
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
 }
