@@ -77,6 +77,7 @@ let Hoteldetails={
           "state": "Rajasthan",
           "country": "India"
         },
+        "thumbnail":"https://www.tajhotels.com/content/dam/luxury/rambagh-palace/3x2/TRPJ_Exterior2B_AM_1275-3x2.jpg/_jcr_content/renditions/cq5dam.web.756.756.jpeg",
         "startingPrice": 900,
         "rating": 5,
         "facilities": ["Palatial Rooms", "Landscaped Gardens", "Outdoor Pool"],
@@ -93,6 +94,7 @@ let Hoteldetails={
           "state": "Himachal Pradesh",
           "country": "India"
         },
+        "thumbnail":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/dd/51/cc/wildflower-hall-shimla.jpg?w=700&h=-1&s=1",
         "startingPrice": 750,
         "rating": 5,
         "facilities": ["Mountain Views", "Outdoor Jacuzzi", "Nature Activities"],
@@ -109,6 +111,7 @@ let Hoteldetails={
           "state": "West Bengal",
           "country": "India"
         },
+        "thumbnail":"https://media-cdn.tripadvisor.com/media/photo-s/12/75/8e/7b/view-from-the-compound.jpg",
         "startingPrice": 400,
         "rating": 4,
         "facilities": ["Business Center", "Roof-Top Lounge", "Fitness Studio"],
@@ -124,6 +127,7 @@ let Hoteldetails={
           "city": "Goa",
           "state": "India"
         },
+        "thumbnail":"https://www.goa-hotels-india.com/data/Pictures/OriginalPhoto/3394/339403/339403063/picture-sinquerim-vivanta-by-taj-fort-aguada-hotel-14.JPEG",
         "startingPrice": 550,
         "rating": 4,
         "facilities": ["Water Sports", "Beach Access", "Casino"],
@@ -140,6 +144,7 @@ let Hoteldetails={
           "state": "Maharashtra",
           "country": "India"
         },
+        "thumbnail":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2015/05/07/1206/Hyatt-Place-Pune-Hinjewadi-P010-Exterior-by-Morning-Landscape.jpg/Hyatt-Place-Pune-Hinjewadi-P010-Exterior-by-Morning-Landscape.16x9.jpg",
         "startingPrice": 450,
         "rating": 4,
         "facilities": ["Business Services", "Spa and Wellness", "Rooftop Lounge"],
@@ -156,6 +161,7 @@ let Hoteldetails={
           "state": "Jammu and Kashmir",
           "country": "India"
         },
+        "thumbnail":"https://assets.vogue.in/photos/646ddfc19760d4533213f98d/3:2/w_2499,h_1666,c_limit/Facade%202.jpg",
         "startingPrice": 600,
         "rating": 4,
         "facilities": ["Historic Architecture", "Kashmiri Cuisine", "Shikara Rides"],
@@ -172,6 +178,7 @@ let Hoteldetails={
           "state": "Karnataka",
           "country": "India"
         },
+        "thumbnail":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/ee/2d/9d/jw-marriott-hotel-mumbai.jpg?w=700&h=-1&s=1",
         "startingPrice": 850,
         "rating": 5,
         "facilities": ["Executive Lounge", "Gourmet Dining", "Luxury Spa"],
@@ -188,6 +195,7 @@ let Hoteldetails={
           "state": "Telangana",
           "country": "India"
         },
+        "thumbnail":"https://pix7.agoda.net/hotelImages/9455124/0/4311c63b7c31d6e42eab66d2078cf3c2.jpg?ca=20&ce=0&s=414x232&ar=16x9",
         "startingPrice": 500,
         "rating": 4,
         "facilities": ["Business Class Rooms", "Outdoor Pool", "Fitness Center"],
@@ -204,6 +212,7 @@ let Hoteldetails={
           "state": "Tamil Nadu",
           "country": "India"
         },
+        "thumbnail":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/df/e1/a3/park-hyatt-hyderabad.jpg?w=700&h=-1&s=1",
         "startingPrice": 700,
         "rating": 5,
         "facilities": ["Luxury Residences", "Dining Choices", "Spa and Fitness Center"],
@@ -220,6 +229,7 @@ let Hoteldetails={
           "state": "Haryana",
           "country": "India"
         },
+        "thumbnail":"https://gos3.ibcdn.com/73017900e52c11eaa94e0242ac110003.jpg",
         "startingPrice": 600,
         "rating": 4,
         "facilities": ["Heavenly Spa", "Outdoor Pool", "Modern Meeting Spaces"],
@@ -236,6 +246,7 @@ let Hoteldetails={
           "state": "Maharashtra",
           "country": "India"
         },
+        "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIRu8LOaMwkiEI4szkH4z9pTHGhpNTe4GUag&usqp=CAU",
         "startingPrice": 650,
         "rating": 4,
         "facilities": ["Club Oasis Spa", "Multiple Dining Venues", "Concierge Services"],
@@ -252,6 +263,7 @@ let Hoteldetails={
           "state": "Andhra Pradesh",
           "country": "India"
         },
+        "thumbnail":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/97/13/5a/novotel-visakhapatnam.jpg?w=700&h=-1&s=1",
         "startingPrice": 550,
         "rating": 4,
         "facilities": ["Sea View Rooms", "All-Day Dining", "Rooftop Bar"],
@@ -267,6 +279,7 @@ let Hoteldetails={
           "city": "Chandigarh",
           "state": "India"
         },
+        "thumbnail":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/17883897.jpg?k=5ee6b30a3616fa2f583b6aa197c3380747cfd79fcc92a6a926530d7b005aa28a&o=&hp=1",
         "startingPrice": 500,
         "rating": 4,
         "facilities": ["Business Center", "Rooftop Pool", "Fitness Club"],
@@ -283,6 +296,7 @@ let Hoteldetails={
           "state": "Rajasthan",
           "country": "India"
         },
+        "thumbnail":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/32617580.jpg?k=e176776367f33646411fe1f31c2de3ffa0e5f36493672685ae435a2742f762e6&o=&hp=1",
         "startingPrice": 800,
         "rating": 5,
         "facilities": ["Luxury Suites", "Award-Winning Restaurants", "Spa"],
@@ -299,6 +313,7 @@ let Hoteldetails={
           "state": "Kerala",
           "country": "India"
         },
+        "thumbnail":"https://imgcld.yatra.com/ytimages/image/upload/t_seo_Hotel_w_930_h_550_c_fill_g_auto_q_40_f_jpg/v1399896761/Domestic%20Hotels/Hotels_Cochin/Crowne%20Plaza%20Kochi/Overview.jpg",
         "startingPrice": 600,
         "rating": 4,
         "facilities": ["Infinity Pool", "Specialty Restaurants", "Meeting Rooms"],
@@ -315,6 +330,7 @@ let Hoteldetails={
           "state": "Delhi",
           "country": "India"
         },
+        "thumbnail":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/96/a1/5c/the-leela-ambience-convention.jpg?w=700&h=-1&s=1",
         "startingPrice": 750,
         "rating": 5,
         "facilities": ["Grand Ballroom", "Multiple Restaurants", "Luxury Spa"],
@@ -331,6 +347,7 @@ let Hoteldetails={
           "state": "Rajasthan",
           "country": "India"
         },
+        "thumbnail":"https://www.oberoihotels.com/-/media/oberoi-hotels/website-images/the-oberoi-udaivilas-udaipur/gallery/featured/udaivilas-gallery-featured-3-courtyard-724x407.jpg?extension=webp",
         "startingPrice": 900,
         "rating": 5,
         "facilities": ["Lake View Rooms", "Luxury Spa", "Fine Dining"],
@@ -347,6 +364,7 @@ let Hoteldetails={
           "state": "Rajasthan",
           "country": "India"
         },
+        "thumbnail":"https://www.hotelierindia.com/cloud/2021/11/22/u95LOioo-JW-Marriott-Jaipur-Resort-Spa.jpg",
         "startingPrice": 650,
         "rating": 4,
         "facilities": ["Rooftop Pool", "Conference Rooms", "Fitness Center"],
@@ -362,6 +380,7 @@ let Hoteldetails={
           "city": "Goa",
           "state": "India"
         },
+        "thumbnail":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/70096978.jpg?k=9128f3db632d0ab97cef32032fa0f225ac47114b23ec6498d3721bef92564312&o=&hp=1",
         "startingPrice": 700,
         "rating": 5,
         "facilities": ["Private Beach", "Jiva Spa", "Fine Dining"],
@@ -378,6 +397,7 @@ let Hoteldetails={
           "state": "Karnataka",
           "country": "India"
         },
+        "thumbnail":"https://global-uploads.webflow.com/5cf16f74881a650c03c2f354/605fb766d9ea2761aa45dfe7_5ea1d63806d5f8ddde285e8c_The%2520Ritz-Carlton%252C%2520Bangalore%2520general.jpeg",
         "startingPrice": 850,
         "rating": 5,
         "facilities": ["Luxury Accommodations", "Rooftop Bar", "Spa"],
@@ -394,6 +414,7 @@ let Hoteldetails={
           "state": "Maharashtra",
           "country": "India"
         },
+        "thumbnail":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/490796111.jpg?k=55a517b2336d15e036564973584952e6a74cf11096788adc662c175158d87ca4&o=&hp=1",
         "startingPrice": 600,
         "rating": 4,
         "facilities": ["Airport Shuttle", "Outdoor Pool", "Executive Lounge"],
