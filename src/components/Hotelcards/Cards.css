@@ -1,9 +1,17 @@
 
 .Crad-container{
     margin: 50px;
+    margin-bottom: 0px !important;
     background-color: #cee5f7;
     padding: 10px;
     border-radius: 20px;
+    box-shadow: 0px 0px 20px #91bbdb9b;
+    height: 370px;
+}
+.cardThumbnail-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .cardThumbnail{
     width: 350px;
@@ -11,4 +19,50 @@
     overflow: hidden;
     object-fit: cover;
     border-radius: 20px;
+    margin-top: 10px;
+}
+.card-details{
+    line-height: 20px;
+    width: 250px;
+}
+.card-base{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+/* .card-button-container{
+   align-self:last baseline;
+} */
+.card-button {
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f94b;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background: #fff;
+    margin-top: 51px;
+}
+
+.card-button > img {
+    width: 14px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+}
+
+.card-button:hover > img {
+    font-size: 1.2em;
+    transform: translateX(5px);
+}
+
+.card-button:hover {
+    box-shadow: 9px 9px 33px #efefef, -9px -9px 33px #ffffff;
+    transform: translateY(-2px);
 }

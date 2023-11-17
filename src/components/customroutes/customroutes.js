@@ -8,7 +8,7 @@ function Customroutes(){
     return(
         <Routes>
             <Route path="/" element={<Home></Home>}></Route>
-            <Route path="/login" element={<Signup></Signup>} ></Route>
+            <Route path="/login/:fullName?" element={<Signup></Signup>} ></Route>
             <Route path="/contact" element={<Contactus></Contactus>}></Route>
             <Route path="/Hotels" element={<Hotels></Hotels>}></Route>
         </Routes>

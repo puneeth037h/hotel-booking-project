@@ -406,23 +406,6 @@ let Hoteldetails={
           "email": "reservations.bangalore@ritzcarlton.com",
           "address": "99, Residency Road, Bangalore, Karnataka, India"
         }
-      },
-      {
-        "name": "Hilton Mumbai International Airport",
-        "location": {
-          "city": "Mumbai",
-          "state": "Maharashtra",
-          "country": "India"
-        },
-        "thumbnail":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/490796111.jpg?k=55a517b2336d15e036564973584952e6a74cf11096788adc662c175158d87ca4&o=&hp=1",
-        "startingPrice": 600,
-        "rating": 4,
-        "facilities": ["Airport Shuttle", "Outdoor Pool", "Executive Lounge"],
-        "contact": {
-          "phone": "+91 22 2838 0000",
-          "email": "bomhi.info@hilton.com",
-          "address": "Sahar Airport Road, Andheri East, Mumbai, Maharashtra, India"
-        }
       }
     ]
   }

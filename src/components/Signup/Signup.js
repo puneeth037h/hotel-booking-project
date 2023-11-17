@@ -1,8 +1,16 @@
 import "./Signup.css"
+import { useParams } from 'react-router-dom';
 
 function Signup(){
+    // let name = useParams();
+
     return(
             <div className="main-container-sigin">
+                {/* <h1>
+                    {
+                        name
+                    }
+                </h1> */}
                 <div className="Signup-main-container">
                     <div className="signup-side-img">
                     <div className="Quote-container">
