@@ -2,10 +2,11 @@
 .card-container{
     margin: 50px;
     margin-bottom: 0px !important;
-    background-color: #cee5f7;
+    background-color: #cee5f7d4;
+    /* background-color: rgba(255, 255, 255, 0.081); */
     padding: 10px;
     border-radius: 20px;
-    box-shadow: 0px 0px 20px #91bbdb9b;
+    box-shadow: 0px 0px 10px #91bbdb9b;
     height: 390px;
     cursor: pointer;
 }
@@ -75,7 +76,7 @@
 }
 
 .card-button:hover {
-    box-shadow: 9px 9px 33px #efefef, -9px -9px 33px #ffffff;
+    box-shadow: 9px 9px 33px #efefef, -9px -9px 33px #eae4e4;
     transform: translateY(-2px);
 }
 .rating-star{

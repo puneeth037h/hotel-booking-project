@@ -77,7 +77,7 @@ let Hoteldetails={
           "state": "Rajasthan",
           "country": "India"
         },
-        "thumbnail":"https://www.tajhotels.com/content/dam/luxury/rambagh-palace/3x2/TRPJ_Exterior2B_AM_1275-3x2.jpg/_jcr_content/renditions/cq5dam.web.756.756.jpeg",
+        "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv7E2DeWxrIgeXYuIj5hlNXrcxM8MkJdccHw&usqp=CAU",
         "startingPrice": 900,
         "rating": 5,
         "facilities": ["Palatial Rooms", "Landscaped Gardens", "Outdoor Pool"],

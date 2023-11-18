@@ -1,0 +1,21 @@
+.Featuredhotel-container{
+    margin: 10px 0px 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.Featuredhotel-container > h1{
+    font-size: 40px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.Hotel_features{
+    margin: 0px 0px 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
