@@ -3,36 +3,42 @@ import { useEffect } from 'react';
 import arrow from '../../Assets/icons1/right-arrow.png'
 import star from '../../Assets/icons1/star.png'
 
+
 function Cards({hotel}){
-    useEffect(() => {
-        const card = document.querySelector('.card-container');
-        const cardImage = document.querySelector('.cardThumbnail');
+
+    // useEffect(() => {
+
+    //     const card = document.querySelector('.Crad-container');
+    //     const cardImage = document.querySelector('.cardThumbnail');
+
+    //     const handleMouseEnter = () => {
+    //       cardImage.style.transform = 'translateY(-40px)';
+    //       cardImage.style.boxShadow = ' 0px 14px 12px  rgba(0, 0, 0, 0.8)';
+    //     };
+
+    //     const handleMouseLeave = () => {
+    //         cardImage.style.transform = 'translateY(0px)';
+    //         cardImage.style.boxShadow = 'none';
+    //     };
+
+    //     card.addEventListener('mouseenter', handleMouseEnter);
+    //     card.addEventListener('mouseleave', handleMouseLeave);
     
-        const handleMouseEnter = () => {
-          cardImage.style.transform = 'translateY(-40px)';
-        };
+        
+        
+    //     // Cleanup the event listener when the component unmounts
+    //     return () => {
+    //         card.removeEventListener('mouseenter', handleMouseEnter);
+    //         card.removeEventListener('mouseleave', handleMouseLeave);
+    //     };
     
-        if (card) {
-          card.addEventListener('mouseenter', handleMouseEnter);
-    
-          // Cleanup the event listener when the component unmounts
-          return () => {
-            card.removeEventListener('mouseenter', handleMouseEnter);
-          };
-        }
-      }, []);
-
-    // let card=document.querySelector('.card-container');
-
-    // let cardimage = document.querySelector('.cardThumbnail');
-
-    // card.addEventListener('mouseenter', ()=>{cardimage.Style.transform = 'translateY(-40px)';})
-
+    // },[]);
 
 
 
     return(
-        <div className='Crad-container'>
+        
+        <div className='card-container'>
             <div >
                 <div className='cardThumbnail-container'>
                     <img src={hotel.thumbnail}  className="cardThumbnail"alt="" />

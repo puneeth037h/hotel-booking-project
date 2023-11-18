@@ -1,5 +1,5 @@
 
-.Crad-container{
+.card-container{
     margin: 50px;
     margin-bottom: 0px !important;
     background-color: #cee5f7;
@@ -7,7 +7,9 @@
     border-radius: 20px;
     box-shadow: 0px 0px 20px #91bbdb9b;
     height: 390px;
+    cursor: pointer;
 }
+
 .cardThumbnail-container{
     display: flex;
     justify-content: center;
@@ -24,10 +26,13 @@
     
 }
 
-.cardThumbnail:hover {
-    transform: translateY(-40px);
-    box-shadow: 0px 14px 12px  rgba(0, 0, 0, 0.8);
+.card-container :hover{
+    .cardThumbnail{
+        transform: translateY(-40px);
+        box-shadow: 0px 14px 12px  rgba(0, 0, 0, 0.8);
+    }
 }
+
 .card-details{
     line-height: 20px;
     width: 250px;
