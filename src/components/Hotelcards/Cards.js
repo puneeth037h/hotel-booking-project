@@ -37,9 +37,9 @@ function Cards({hotel}){
 
 
     return(
-        
+
         <div className='card-container'>
-            <div >
+            <div  >
                 <div className='cardThumbnail-container'>
                     <img src={hotel.thumbnail}  className="cardThumbnail"alt="" />
                 </div>
