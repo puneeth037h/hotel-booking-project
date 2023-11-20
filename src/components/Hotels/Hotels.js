@@ -1,10 +1,12 @@
 import Hoteldetails from "../../Assets/Data/Data";
 import Cards from "../Hotelcards/Cards";
 import './Hotels.css'
+import Footer from "../Footer/Footer";
 
 function Hotels(){
 
     return(
+        <div>
         <div className="card-display">
             {Hoteldetails.hotels.map((elm,index)=>{
                 return(
@@ -13,6 +15,9 @@ function Hotels(){
                     </div>
                 );
             })}
+            
+        </div>
+        <Footer></Footer>
         </div>
 
     );

@@ -1,39 +1,13 @@
 import './Cards.css'
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 import arrow from '../../Assets/icons1/right-arrow.png'
 import star from '../../Assets/icons1/star.png'
+import { Link } from 'react-router-dom';
+// import { useParams } from 'react-router-dom';
 
 
 function Cards({hotel}){
-
-    // useEffect(() => {
-
-    //     const card = document.querySelector('.Crad-container');
-    //     const cardImage = document.querySelector('.cardThumbnail');
-
-    //     const handleMouseEnter = () => {
-    //       cardImage.style.transform = 'translateY(-40px)';
-    //       cardImage.style.boxShadow = ' 0px 14px 12px  rgba(0, 0, 0, 0.8)';
-    //     };
-
-    //     const handleMouseLeave = () => {
-    //         cardImage.style.transform = 'translateY(0px)';
-    //         cardImage.style.boxShadow = 'none';
-    //     };
-
-    //     card.addEventListener('mouseenter', handleMouseEnter);
-    //     card.addEventListener('mouseleave', handleMouseLeave);
     
-        
-        
-    //     // Cleanup the event listener when the component unmounts
-    //     return () => {
-    //         card.removeEventListener('mouseenter', handleMouseEnter);
-    //         card.removeEventListener('mouseleave', handleMouseLeave);
-    //     };
-    
-    // },[]);
-
 
 
     return(
@@ -52,10 +26,12 @@ function Cards({hotel}){
                     </div>
                     <div>
                         <p>Rating:{hotel.rating} <img src={star} className="rating-star"alt="" /></p>
-                        <button className='card-button'>
-                                <span>View</span>
-                                <img src={arrow} alt="arrow" />
-                        </button>
+                            <Link to={`/view-hotel/${hotel.name}`}>    
+                                <button className='card-button'>
+                                    <span>View</span>
+                                    <img src={arrow} alt="arrow" />
+                                </button>
+                            </Link>
                     </div>
                     
                 </div>

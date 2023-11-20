@@ -8,6 +8,7 @@ import Customroutes from './components/customroutes/customroutes';
 // import Contactus from './components/Contactus/Contactus';
 // import Signup from './components/Signup/Signup';
 import Hotels from './components/Hotels/Hotels';
+import Signup from './components/Signup/Signup';
 
 function App() {
   return (

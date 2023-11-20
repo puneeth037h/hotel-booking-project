@@ -1,14 +1,25 @@
-import "./Signup.css"
+import "./Signin.css"
 import { useParams } from 'react-router-dom';
 
-function Signup(){
-    
+function Signin(){
+    // let name = useParams();
 
     return(
-            <div className="main-container-sigup">
-
+            <div className="main-container-sigin">
+                {/* <h1>
+                    {
+                        name
+                    }
+                </h1> */}
                 <div className="Signup-main-container">
-                    
+                    <div className="signup-side-img">
+                        <div className="Quote-container">
+                            <h2>"Embark on a journey of comfort and luxury with a single click"</h2>
+                        </div>
+                        <div className="Signup_button_container">
+                            <button className="Signup_button">Sign up</button>
+                        </div>
+                    </div>
                     <div className="Main-signin-form">
                         <div className="signin-logo">
                             <h2>Welcome to hotel4rent</h2>
@@ -34,17 +45,9 @@ function Signup(){
                             </div>
                         </div>
                     </div>
-                    <div className="signup-side-img">
-                        <div className="Quote-container">
-                            <h2>"Embark on a journey of comfort and luxury with a single click"</h2>
-                        </div>
-                        <div className="Signup_button_container">
-                            <button className="Signup_button">Sign up</button>
-                        </div>
-                    </div>
                 </div>
             </div>
     );
 }
 
-export default Signup;
+export default Signin;

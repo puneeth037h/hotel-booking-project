@@ -2,6 +2,7 @@ import Herosection from "../Hero section/Herosection.js";
 import Features from "../Features/Features.js";
 import Featuredhotel from "../FeaturedHotels/FeaturedHotels.js";
 import "./Home.css"
+import Footer from "../Footer/Footer.js";
 
 function Home(){
     return(
@@ -15,6 +16,7 @@ function Home(){
             <h1>Features</h1>
             <Features></Features>
         </div>
+        <Footer></Footer>
         </div>
     );
 }
