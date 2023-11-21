@@ -1,0 +1,30 @@
+
+
+.pricing-rating-container{
+    display: flex;
+    justify-content: space-between;
+}
+.pricing-container > button{
+    width: 100px !important;
+    height: 40px !important;
+    justify-content: center;
+    align-self: center;
+    margin: 0px 10px 0px 50px;
+
+    /* background-color: aqua; */
+}
+.pricing-container{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.pricing-rating-container > h2{
+    justify-self: flex-end;
+    margin-right: 100px;
+}
+.hotel-thumbnail{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    overflow: hidden;
+}

@@ -19,3 +19,36 @@
     align-items: center;
     flex-direction: column;
 }
+.viewmore-button {
+    height: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #f9f9f94b; */
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background: #cee5f7d4;
+    margin-top: 10px;
+}
+
+.viewmore-button > img {
+    width: 14px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+}
+
+.viewmore-button:hover > img {
+    font-size: 1.2em;
+    transform: translateX(5px);
+}
+
+.viewmore-buttonn:hover {
+    box-shadow: 3px 3px 10px #cee5f7d4, -3px -3px 10px #cee5f7d4;
+    transform: translateY(-2px);
+}
