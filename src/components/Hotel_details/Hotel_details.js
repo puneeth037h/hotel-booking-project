@@ -47,6 +47,9 @@ function ViewHoteldetails(){
                 </div>
                 <h2>{hoteldetails.rating}</h2>
             </div>
+            <div>
+                <p>{hoteldetails.description}</p>
+            </div>
             
             
             <h1>contact</h1>
