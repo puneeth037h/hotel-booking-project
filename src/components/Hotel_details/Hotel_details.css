@@ -3,6 +3,7 @@
 .pricing-rating-container{
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
 .pricing-container > button{
     width: 100px !important;
@@ -22,9 +23,74 @@
     justify-self: flex-end;
     margin-right: 100px;
 }
+.Hotel_images{
+    display: flex   ;
+}
 .hotel-thumbnail{
-    width: 400px;
-    height: 400px;
+    margin-left: 20px;
+    width: 900px;
+    height: 500px;
     object-fit: cover;
     overflow: hidden;
+}
+.hotel-image1{
+    width:700px;
+    height: 245px;
+    margin: 0px 10px 10px 10px;
+    object-fit: cover;
+}
+.hotel-image2{
+    width: 345px;
+    height: 242px;
+    margin: 0px 5px 5px 10px;
+    object-fit: cover;
+}
+.hotel-image3{
+    width: 345px;
+    height: 242px;
+    margin: 0px 5px 5px 5px;
+    object-fit: cover;
+}
+
+
+.Hotel-details-container{
+    margin: 00px;
+    padding: 5px 20px 20px 20px;
+    background-color: #cee5f7d4;
+    /* border-radius: 20px; */
+}
+.Booknow-button {
+    height: 40px;
+    width: 200px;
+    display: flex;
+    outline: none ;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f94b;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background: #fff;
+    /* margin-top: 51px; */
+    margin: 14px;
+}
+
+.Booknow-button > img {
+    width: 14px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+}
+
+.Booknow-button:hover > img {
+    font-size: 1.2em;
+    transform: translateX(5px);
+}
+
+.Booknow-button:hover {
+    box-shadow: 3px 3px 20px #efefef, -3px -3px 20px #eae4e4;
+    transform: translateY(-2px);
 }

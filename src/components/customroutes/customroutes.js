@@ -4,6 +4,7 @@ import Home from "../Home/Home";
 import Contactus from "../Contactus/Contactus";
 import Hotels from "../Hotels/Hotels";
 import ViewHoteldetails from "../Hotel_details/Hotel_details";
+import Booking from "../Booking/Booking";
 
 function Customroutes(){
     return(
@@ -13,6 +14,7 @@ function Customroutes(){
             <Route path="/contact" element={<Contactus></Contactus>}></Route>
             <Route path="/Hotels" element={<Hotels></Hotels>}></Route>
             <Route path="/view-hotel/:name?" element={<ViewHoteldetails></ViewHoteldetails>}></Route>
+            <Route path="/Booking" element={<Booking></Booking>}></Route>
         </Routes>
     );
 }

@@ -4,3 +4,6 @@
 .App{
     background-color: rgb(253, 254, 254);
 }
+a:-webkit-any-link{
+    text-decoration: none;
+}

@@ -1,4 +1,4 @@
-import "./Signup.css"
+// import "./Signup.css"
 import { useParams } from 'react-router-dom';
 
 function Signup(){

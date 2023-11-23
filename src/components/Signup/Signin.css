@@ -6,6 +6,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-image: url("../../Assets/images/swimming-pool.jpg");
+    background-size: cover; */
 }
 .Signup-main-container{
     background-color:aliceblue;
@@ -25,7 +27,7 @@
     margin-left: -220px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     /* margin-bottom: 20px; */
 }
@@ -36,10 +38,14 @@
 }
 .Quote-container{
     color:white;
-    margin: 30px;
+    /* margin: 30px; */
     text-align: center;
     line-height: 40px;
-    margin-bottom: 98px;
+    /* margin-bottom: 98px; */
+    /* margin-top: -200px; */
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
 }
 .signin-logo{
     margin: 20px;
@@ -101,4 +107,15 @@
     border-radius: 10px;
     height: 50px;
     
+}
+/* .or-in-signin{
+    margin: 0px;
+    line-height: 0px;
+} */
+.signin-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
 }
