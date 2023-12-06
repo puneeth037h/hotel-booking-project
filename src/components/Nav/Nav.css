@@ -10,6 +10,14 @@
 /* .Logo{
     margin: 5px 1100px 5px 20px;
 } */
+.ACE_hote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    height: 70px;
+    width:80px
+}
 .Nav_buttons{
     color: #3d405b;
     height: 30px;

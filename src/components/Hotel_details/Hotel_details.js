@@ -95,6 +95,10 @@ function ViewHoteldetails(){
             <h2>contact</h2>
             <h3>Phone:{hoteldetails.phone}</h3>
             <h3>Email:{hoteldetails.email}</h3>
+
+            <div>
+            <iframe src={hoteldetails.map} width="100%" height="450" style={{ border: '0' }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
 
     );

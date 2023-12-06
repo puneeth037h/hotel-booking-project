@@ -1,10 +1,11 @@
 import "./Nav.css"
 import { Link,Outlet } from "react-router-dom";
+import logo from "../../Assets/images/ace hotel black.png"
 
 function Nav(){
     return(
         <div className="Nav_bar">
-            <div className="Logo">logo</div>
+            <img className="ACE_hote" src={logo}></img>
             <div className="nav-buttons-group">
                 <Link to={'/'}><button className="Nav_buttons">Home</button></Link>
                 <Link to={'/Hotels'}><button className="Nav_buttons">Hotels</button></Link>
