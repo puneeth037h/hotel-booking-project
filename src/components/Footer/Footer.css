@@ -64,8 +64,8 @@
 
 
 .our-details{
-    padding: 50px;
-    margin: 10px;
+    padding: 0px 50px 50px 50px;
+    margin: 0px 10px 10px 10px;
 }
 
 .details{
@@ -110,4 +110,7 @@
 .submit-button:hover {
     box-shadow: 3px 3px 10px #efefef, -3px -3px 10px #eae4e4;
     transform: translateY(-2px);
+}
+.footerlogo{
+    height: 150px;
 }

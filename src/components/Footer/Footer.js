@@ -6,6 +6,7 @@ import { useEffect } from 'react'
 import callicon from '../../Assets/icons1/call.png'
 import locationicon from '../../Assets/icons1/location.png'
 import emailicon from '../../Assets/icons1/mail.png'
+import acewhitelogo from '../../Assets/images/ace hotel white.png'
 
 function Footer(){
     const ScrollToTopOnMount = () => {
@@ -56,9 +57,10 @@ function Footer(){
             </div>
 
             <div className='our-details'>
-                <h2>Hotel For Rent</h2>
+                <img className='footerlogo' src={acewhitelogo}></img>
+                <h2>Ace Hotels</h2>
                 <div className='details'> <img src={callicon} alt="mobileno" height={20} />+91 9648759310 </div>
-                <div className='details'> <img src={emailicon} alt="email" height={20} /> hotelforride@gmail.com  </div>
+                <div className='details'> <img src={emailicon} alt="email" height={20} /> AceHotels@gmail.com  </div>
                 <div className='details'> <img src={locationicon} alt="location" height={20} /> Banglore, Karnataka</div>
             </div>
             <Outlet></Outlet>
