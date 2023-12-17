@@ -11,8 +11,8 @@ function Home(){
         <div>
         <Herosection></Herosection>
         <div className="Featuredhotel-container">
-            <h1>Featured Hotel</h1>
-            <Featuredhotel></Featuredhotel>
+            
+            {/* <Featuredhotel></Featuredhotel> */}
             <Link to={'/Hotels'}>    
                 <button className='viewmore-button'>
                     <span>view more</span>

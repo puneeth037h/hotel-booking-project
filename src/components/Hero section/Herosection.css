@@ -1,6 +1,16 @@
 .herosection{
-    /* width: 1520px;
-    overflow: hidden; */
+    width: 1520px;
+    overflow: hidden;
+    background-image: url("../../Assets/images/main image.jpg");
+    width: 98%;
+    border-radius: 15px;
+    margin: 1%;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .heroimage{
@@ -8,3 +18,70 @@
     border-radius: 15px;
     margin: 1%;
 }
+.search-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    /* height: 10px; */
+    margin-top: 50px;
+    margin-right: 800px;
+    width: 300px;
+
+  }
+  
+  .search-container>input {
+    width: 30px;
+    height: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 18px 16px;
+    /* background-color: transparent; */
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+  }
+  
+  .search-container>input::placeholder {
+    color: transparent;
+  }
+  
+  .search-container>input:focus::placeholder {
+    color: rgb(131, 128, 128);
+  }
+  
+  .search-container>input:focus,.input:not(:placeholder-shown) {
+    background-color: #fff;
+    /* border: 1px solid rgb(98, 0, 255); */
+    width: 290px;
+    height: 10px;
+    cursor: none;
+    padding: 18px 16px 18px 40px;
+  }
+  
+  .icon {
+    position: absolute;
+    left: 10px;
+    top: -10;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: 1;
+    fill: #b5d9f3;
+    /* border: 1px solid rgb(98, 0, 255); */
+  }
+  
+  .input:hover +  .icon {
+    transform: rotate(360deg);
+    transition: .2s ease-in-out;
+    left: 0;
+  }
+  
+  .search-container>input:focus + .icon,.input:not(:placeholder-shown) + .icon {
+    z-index: 0;
+    background-color: transparent;
+    border: none;
+    left: 0;
+  }
+  
+  
