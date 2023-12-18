@@ -20,7 +20,7 @@ function Herosection(){
             let data = Hoteldetails.hotels.filter(Hotel => Hotel.name.toLowerCase().includes(search.toLowerCase()));
             console.log('Filtered data:', data);
             setresult(data);
-            setHotelsFound(false);
+            setHotelsFound(true);
         }
 
     }, [search]);

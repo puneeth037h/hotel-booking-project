@@ -14,7 +14,7 @@ function Customroutes(){
             <Route path="/contact" element={<Contactus></Contactus>}></Route>
             <Route path="/Hotels" element={<Hotels></Hotels>}></Route>
             <Route path="/view-hotel/:name?" element={<ViewHoteldetails></ViewHoteldetails>}></Route>
-            <Route path="/Booking" element={<Booking></Booking>}></Route>
+            <Route path="/Booking/:name?" element={<Booking></Booking>}></Route>
         </Routes>
     );
 }

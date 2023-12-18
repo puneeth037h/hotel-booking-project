@@ -1,12 +1,13 @@
 
 import './Booking.css';
-
-import { useState} from 'react';
+import { useParams } from "react-router-dom";
+import { useState,useEffect} from 'react';
 
 
 function Booking(){ 
 
-    let [name, setname] = useState('')
+    let [customername, setname] = useState('')
+    let [hotelSelected,sethotelSelected]=useState('')
     let [mobile, setmobile] = useState('')
     let [email, setemail] = useState('')
     let [location, setlocation] = useState('')
@@ -15,9 +16,37 @@ function Booking(){
     let [checkout, setdrop] = useState('')
     let [result, setresult] = useState('')
     
+    let { name } = useParams();
+
+    let [hoteldetails,setDetails] = useState({})
+    useEffect(()=>{
+
+        let bodyData = { "name":name
+        };
+
+        fetch( 'http://localhost:3000/hotels',
+            {
+                method:"POST",
+                body:JSON.stringify(bodyData),
+                headers: { 'Content-Type': 'application/json'},
+            },
+        )
+
+        .then((res)=>{
+            res.json().then((val)=>{
+                console.log(val)
+                setDetails(val[0])
+            }
+        )})
+
+        sethotelSelected(hoteldetails.name)
+
+    },[]);
+    
     function send(){
         var data = {
-            'name':name,
+            'customername':customername,
+            'hotelSelected':hotelSelected,
             'mobile':mobile,
             'email':email,
             'location':location,
@@ -43,7 +72,7 @@ function Booking(){
             console.log(error)
         }
     }
-  
+    console.log(hoteldetails);
 
     
     return(
@@ -77,6 +106,8 @@ function Booking(){
                         <label className='booking-label'>checkout</label>
                         <input onChange={(val) => {setdrop(val.target.value)}} className='booking-inputbar' type="date" placeholder='enter droping time' />
 
+
+                        {/* <h1>{hoteldetails.name}</h1> */}
                         
 
                     </div>

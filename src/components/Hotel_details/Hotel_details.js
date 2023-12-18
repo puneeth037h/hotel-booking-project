@@ -77,7 +77,7 @@ function ViewHoteldetails(){
             <div className="pricing-rating-container" >
                 <div className="pricing-container">
                     <h2>Starting at {hoteldetails.starting_price} INR/Night</h2>
-                    <Link to={'/Booking'}>
+                    <Link to={`/Booking/${hoteldetails.name}`}>
                         <button className='Booknow-button'>
                             <span>Book Now</span>
                             <img src={arrow} alt="arrow" />
