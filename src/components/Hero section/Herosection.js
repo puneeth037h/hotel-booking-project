@@ -8,24 +8,26 @@ function Herosection(){
 
     let [search , setsearch] = useState('')
     let [result , setresult] = useState([])
-
-    // const handlechange = e =>{
-    //     setsearch(e.target.value)
-    // }
+    
+    let [HotelsFound , setHotelsFound] = useState(true);
 
     useEffect(() => {
 
         if (search === '') {
             setresult([]);
+            setHotelsFound(true)
         } else {
             let data = Hoteldetails.hotels.filter(Hotel => Hotel.name.toLowerCase().includes(search.toLowerCase()));
             console.log('Filtered data:', data);
             setresult(data);
-            console.log();
+            setHotelsFound(false);
         }
 
     }, [search]);
-    const renderHotel = result.length > 0 ? result :Featured_hotel;
+  
+   
+    const Hotellist = result.length > 0 ?  result : Featured_hotel.hotels 
+
     return(
         <div>
             <div className="herosection">
@@ -54,16 +56,32 @@ function Herosection(){
                 </div>
             </div>
 
-            <h1>Featured Hotel</h1>
+            {/* <h1>Featured Hotel</h1> */}
             <div className="card-display">
-            {result.map((elm,index)=>{
-                return(
-                    <div>
-                        <Cards hotel={elm}></Cards>
-                    </div>
-                );
-            })}
-        </div>
+                
+                {
+                    HotelsFound ? (
+
+                        Hotellist.map((elm , index)=>{
+
+                            return(
+
+                                <div  key={index.id}>
+                                    <Cards  hotel={elm}></Cards>
+                                </div>
+        
+                            );
+                        })
+
+                        ) : (
+
+                        <div>
+                            <p>No Hotel Found</p>
+                        </div>
+                    )
+                }
+
+            </div>
 
         </div>
 

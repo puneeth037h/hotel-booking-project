@@ -1,5 +1,5 @@
 
-let Featured_hotel ={
+let Featured_hotel = {
     "hotels":[
     {
       "name": "Taj Mahal Palace",
