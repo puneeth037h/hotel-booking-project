@@ -2,6 +2,7 @@
 import './Booking.css';
 import { useParams } from "react-router-dom";
 import { useState,useEffect} from 'react';
+import Booking_summary from '../booking summary/booking_summary';
 
 
 function Booking(){ 
@@ -119,7 +120,7 @@ function Booking(){
                     
 
             </div>
-
+            <Booking_summary></Booking_summary>
             
         
         </div>

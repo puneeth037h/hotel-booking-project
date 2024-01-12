@@ -1,11 +1,12 @@
 
 
-function Booking_summary({booking_details}){
+function Booking_summary({customername,hotelSelected,mobile,email,location,checkin, time , checkout}){
+
 
 
     return(
         <div>
-            
+        
 
         </div>
     );
