@@ -7,8 +7,6 @@ import { Link } from 'react-router-dom';
 
 
 function Cards({hotel}){
-    
-
 
     return(
 
@@ -20,9 +18,9 @@ function Cards({hotel}){
                 <div className='card-base'>
                     <div className='card-details'>
                         <h3>{hotel.name}</h3>
-                        <p>{hotel.location.city}, {hotel.location.state}</p>
+                        <p>{hotel.city}, {hotel.state}</p>
                         {/* <p>{hotel.location.country}</p> */}
-                        <p>Starting from :{hotel.startingPrice} INR</p>
+                        <p>Starting from :{hotel.starting_price} INR</p>
                     </div>
                     <div>
                         <p>Rating:{hotel.rating} <img src={star} className="rating-star"alt="" /></p>

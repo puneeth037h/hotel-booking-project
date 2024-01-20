@@ -1,32 +1,61 @@
 // import heroimage from "../../Assets/images/main image.jpg"
 import { useState,useEffect } from "react";
-import Hoteldetails from "../../Assets/Data/Data";
+
 import Cards from "../Hotelcards/Cards";
-import Featured_hotel from "../../Assets/Data/FeaturedhotelData";
+
 import "./Herosection.css"
+
 function Herosection(){
+
+    let [Hotelslist , Sethotelslist] = useState([]);
 
     let [search , setsearch] = useState('')
     let [result , setresult] = useState([])
     
     let [HotelsFound , setHotelsFound] = useState(true);
 
+    
+    useEffect( () => {
+
+        try{
+            fetch('http://localhost:3000/Allhotels' , {method: 'POST'})
+            .then(res => res.json())
+            .then(data => Sethotelslist(data))
+            .catch(error => console.log(error))
+        }
+        catch (error) {
+            console.log(error);
+        }
+       
+    },[])
+  
+
     useEffect(() => {
 
         if (search === '') {
             setresult([]);
             setHotelsFound(true)
-        } else {
-            let data = Hoteldetails.hotels.filter(Hotel => Hotel.name.toLowerCase().includes(search.toLowerCase()));
+        }
+         else {
+            let data = Hotelslist.filter(Hotel => Hotel.name.toLowerCase().includes(search.toLowerCase()));
             console.log('Filtered data:', data);
             setresult(data);
             setHotelsFound(true);
         }
 
     }, [search]);
-  
+
+
+    useEffect(() => {
+        if( result.length == 0 && search.length > 1 ){
+            setHotelsFound(false)
+        }
+        else{
+            setHotelsFound(true)
+        }
+    },[search])
    
-    const Hotellist = result.length > 0 ?  result : Featured_hotel.hotels 
+    const Hotellist = result.length > 0 ?  result : Hotelslist.slice(0,6);
 
     return(
         <div>
